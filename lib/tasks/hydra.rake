@@ -12,7 +12,7 @@ all_tests = (Dir.glob("test/unit/**/*_test.rb") +
              Dir.glob("test/integration/**/*_test.rb"))
 
 # Specify tests that don't play well with others
-dangerous_tests = ["test/integration/sessions_test.rb"]
+dangerous_tests = []
 
 # Seperate the good from the bad
 safe_tests = all_tests - dangerous_tests
