@@ -29,4 +29,4 @@ Hydra::TestTask.new('hydra:dangerous') do |t|
 end
 
 # run all tasks together
-task :hydra => ['hydra:safe', 'hydra:dangerous']
+task :hydra => ['hydra:safe']
