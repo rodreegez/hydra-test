@@ -28,5 +28,6 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 # and rake tasks are available in development mode:
 group :development, :test do
    gem 'factory_girl_rails'
-   gem 'hydra'
+   gem 'hydra', :require => false
+   gem 'test-unit'
 end
