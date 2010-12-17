@@ -1,1 +1,1 @@
-$: << ("#{Rails.root}" + '/test')
+$: << 'test'
